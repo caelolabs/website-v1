@@ -4,11 +4,13 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "images/logo-light.svg";
-import { ReactComponent as FacebookIcon } from "images/facebook.svg";
+// import { ReactComponent as FacebookIcon } from "images/facebook.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube.svg";
+import { ReactComponent as GitHubIcon } from "images/github.svg";
+import { ReactComponent as UnityIcon } from "images/unity.svg";
 
-const Container = tw.div`relative bg-gray-900 text-gray-100 -mx-8 -mb-8 px-8`;
+const Container = tw.div`relative bg-primary-900 text-gray-100 -mx-8 -mb-8 px-8`;
 const Content = tw.div`max-w-screen-xl mx-auto pt-16 pb-8`
 const FiveColumns = tw.div`flex flex-wrap justify-between`;
 
@@ -22,8 +24,7 @@ const LinkListItem = tw.li`mt-3`;
 const Link = tw.a`border-b-2 border-transparent hocus:text-gray-300 hocus:border-gray-100 pb-1 transition duration-300`;
 
 const LogoContainer = tw.div`flex items-center justify-center lg:justify-start`;
-const LogoImg = tw.img`w-8`;
-const LogoText = tw.h5`ml-2 text-xl font-black`;
+const LogoImg = tw.img`h-10`;
 
 const CompanyAddress = tw.p`mt-4 max-w-xs font-medium text-sm mx-auto lg:mx-0 lg:mr-4 leading-loose text-center lg:text-left`;
 
@@ -48,22 +49,22 @@ export default () => {
           <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Treact Inc.</LogoText>
             </LogoContainer>
             <CompanyAddress>
-              123 Road, New Startup Building
-              Carter Road, San Francisco
-              California 40234
+              Caelo is a Latin term for the heavens, the sky, and to engrave.
             </CompanyAddress>
             <SocialLinksContainer>
-              <SocialLink href="https://facebook.com">
-                <FacebookIcon />
+              <SocialLink href="https://www.youtube.com/channel/UCdpNtGxF-5s4urxGpknwSpw">
+                <YoutubeIcon />
               </SocialLink>
-              <SocialLink href="https://twitter.com">
+              <SocialLink href="https://twitter.com/CaeloLabs">
                 <TwitterIcon />
               </SocialLink>
-              <SocialLink href="https://youtube.com">
-                <YoutubeIcon />
+              <SocialLink href="https://github.com/caelolabs">
+                <GitHubIcon />
+              </SocialLink>
+              <SocialLink href="https://assetstore.unity.com/publishers/53629">
+                <UnityIcon />
               </SocialLink>
             </SocialLinksContainer>
           </CompanyColumn>
@@ -71,33 +72,18 @@ export default () => {
             <ColumnHeading>Quick Links</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">FAQs</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Support</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">About Us</Link>
+                <Link href="/about">About</Link>
               </LinkListItem>
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>Product</ColumnHeading>
+            <ColumnHeading>Products</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Log In</Link>
+                <Link href="https://assetstore.unity.com/publishers/53629">Aimsity</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Personal</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Business</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Team</Link>
+                <Link href="https://assetstore.unity.com/publishers/53629">Vissity</Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -105,16 +91,13 @@ export default () => {
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">GDPR</Link>
+                <Link href="/#">Legal Notice</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Privacy Policy</Link>
+                <Link href="/#">Terms of Service</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Terms of Service</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Disclaimer</Link>
+                <Link href="/#">Data Protection Policy</Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -122,24 +105,15 @@ export default () => {
             <ColumnHeading>Contact</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                +1 (234) (567)-8901
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="mailto:support@servana.com">support@servana.com</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Sales</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Report Abuse</Link>
+                <Link href="mailto:team@caelolabs.com">team@caelolabs.com</Link>
               </LinkListItem>
             </LinkList>
           </Column>
         </FiveColumns>
         <Divider />
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>&copy; Copyright 2020, Treact Inc.</CopyrightNotice>
-          <CompanyInfo>An Internet Company.</CompanyInfo>
+          <CopyrightNotice>Copyright &copy; 2021 Caelo Labs</CopyrightNotice>
+          <CompanyInfo>A Creative Technology and Development Studio</CompanyInfo>
         </CopyrightAndCompanyInfoRow>
       </Content>
     </Container>

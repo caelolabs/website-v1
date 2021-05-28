@@ -4,10 +4,10 @@ import styled from "styled-components";
 import { css } from "styled-components/macro";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings";
-import {SectionDescription} from "components/misc/Typography";
-import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
-import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
-import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import { SectionDescription } from "components/misc/Typography";
+import { ReactComponent as TwitterIcon } from "images/twitter.svg";
+import { ReactComponent as LinkedinIcon } from "images/linkedin.svg";
+import { ReactComponent as GithubIcon } from "images/github.svg";
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -166,8 +166,8 @@ export default ({
       <ContentWithPaddingXl>
         <HeadingContainer>
           {subheading && <Subheading>{subheading}</Subheading>}
-          {heading && <Heading>{heading}</Heading> }
-          {description && <Description>{description}</Description> }
+          {heading && <Heading>{heading}</Heading>}
+          {description && <Description>{description}</Description>}
         </HeadingContainer>
         <Cards>
           {cards.map((card, index) => (

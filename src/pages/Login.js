@@ -3,11 +3,11 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import { Container as ContainerBase } from "components/misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
-import {css} from "styled-components/macro"; //eslint-disable-line
+import { css } from "styled-components/macro"; //eslint-disable-line
 import illustration from "images/login-illustration.svg";
 import logo from "images/logo.svg";
-import googleIconImageSrc from "images/google-icon.png";
-import twitterIconImageSrc from "images/twitter-icon.png";
+import googleIconImageSrc from "images/google.png";
+import twitterIconImageSrc from "images/twitter.png";
 import { ReactComponent as LoginIcon } from "feather-icons/dist/icons/log-in.svg";
 
 const Container = tw(ContainerBase)`min-h-screen bg-primary-900 text-white font-medium flex justify-center -m-8`;
@@ -89,7 +89,7 @@ export default ({
                 {socialButtons.map((socialButton, index) => (
                   <SocialButton key={index} href={socialButton.url}>
                     <span className="iconContainer">
-                      <img src={socialButton.iconImageSrc} className="icon" alt=""/>
+                      <img src={socialButton.iconImageSrc} className="icon" alt="" />
                     </span>
                     <span className="text">{socialButton.text}</span>
                   </SocialButton>
