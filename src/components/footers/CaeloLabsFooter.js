@@ -113,7 +113,7 @@ export default () => {
         <Divider />
         <CopyrightAndCompanyInfoRow>
           <CopyrightNotice>Copyright &copy; 2021 Caelo Labs</CopyrightNotice>
-          <CompanyInfo>A Creative Technology and Development Studio</CompanyInfo>
+          <CompanyInfo>A Creative Technology &amp; Development Studio</CompanyInfo>
         </CopyrightAndCompanyInfoRow>
       </Content>
     </Container>
