@@ -33,7 +33,7 @@ export default () => {
       <MainFeature1
         subheading={<Subheading>Our Mission</Subheading>}
         heading="Create something stunning."
-        description="Our mission is to provide an exceptional service experience through creative problem-solving and deliver technology that inspires and empowers people around the globe."
+        description="Our mission is to provide an exceptional service experience through creative problem-solving and to deliver technology that inspires and empowers people around the globe."
         buttonRounded={false}
         imageSrc={VissityPreview}
         textOnLeft={false}
