@@ -5,8 +5,9 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import LogoImage from "images/logo-light.svg";
 // import { ReactComponent as FacebookIcon } from "images/facebook.svg";
-import { ReactComponent as TwitterIcon } from "images/twitter.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube.svg";
+import { ReactComponent as TwitterIcon } from "images/twitter.svg";
+import { ReactComponent as InstagramIcon } from "images/instagram.svg";
 import { ReactComponent as GitHubIcon } from "images/github.svg";
 import { ReactComponent as UnityIcon } from "images/unity.svg";
 
@@ -59,6 +60,9 @@ export default () => {
               </SocialLink>
               <SocialLink href="https://twitter.com/CaeloLabs">
                 <TwitterIcon />
+              </SocialLink>
+              <SocialLink href="https://www.instagram.com/caelolabs/">
+                <InstagramIcon />
               </SocialLink>
               <SocialLink href="https://github.com/caelolabs">
                 <GitHubIcon />
