@@ -85,8 +85,8 @@ export default ({
       imageSrc: VissityProductImage,
       company: "Vissity",
       type: "Unity Asset",
-      title: "Coming soon...",
-      buttonUrl: "https://assetstore.unity.com/publishers/53629"
+      title: "Visualize PTV Vissim traffic and PTV Viswalk pedestrians.",
+      buttonUrl: "https://assetstore.unity.com/packages/slug/193837"
     }
   ];
   return (
