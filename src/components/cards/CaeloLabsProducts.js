@@ -98,7 +98,7 @@ export default ({
               <Subheading>{subheading}</Subheading>
               <HeadingTitle>{headingHtmlComponent}</HeadingTitle>
               <HeadingDescription>{description}</HeadingDescription>
-              <PrimaryLink href="https://assetstore.unity.com/publishers/53629">
+              <PrimaryLink target="_blank" href="https://assetstore.unity.com/publishers/53629">
                 {linkText} <ArrowRightIcon />
               </PrimaryLink>
             </HeadingInfoContainer>

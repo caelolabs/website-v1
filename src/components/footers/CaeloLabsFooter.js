@@ -55,19 +55,19 @@ export default () => {
               Caelo is a Latin term for the heavens, the sky, and to engrave.
             </CompanyAddress>
             <SocialLinksContainer>
-              <SocialLink href="https://www.youtube.com/channel/UCdpNtGxF-5s4urxGpknwSpw">
+              <SocialLink target="_blank" href="https://www.youtube.com/channel/UCdpNtGxF-5s4urxGpknwSpw">
                 <YoutubeIcon />
               </SocialLink>
-              <SocialLink href="https://twitter.com/CaeloLabs">
+              <SocialLink target="_blank" href="https://twitter.com/CaeloLabs">
                 <TwitterIcon />
               </SocialLink>
-              <SocialLink href="https://www.instagram.com/caelolabs/">
+              <SocialLink target="_blank" href="https://www.instagram.com/caelolabs/">
                 <InstagramIcon />
               </SocialLink>
-              <SocialLink href="https://github.com/caelolabs">
+              <SocialLink target="_blank" href="https://github.com/caelolabs">
                 <GitHubIcon />
               </SocialLink>
-              <SocialLink href="https://assetstore.unity.com/publishers/53629">
+              <SocialLink target="_blank" href="https://assetstore.unity.com/publishers/53629">
                 <UnityIcon />
               </SocialLink>
             </SocialLinksContainer>
@@ -84,10 +84,10 @@ export default () => {
             <ColumnHeading>Products</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="https://assetstore.unity.com/publishers/53629">Aimsity</Link>
+                <Link target="_blank" href="https://assetstore.unity.com/publishers/53629">Aimsity</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="https://assetstore.unity.com/packages/slug/193837">Vissity</Link>
+                <Link target="_blank" href="https://assetstore.unity.com/packages/slug/193837">Vissity</Link>
               </LinkListItem>
             </LinkList>
           </Column>
