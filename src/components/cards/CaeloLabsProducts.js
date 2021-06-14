@@ -78,8 +78,8 @@ export default ({
       imageSrc: AimsityProductImage,
       company: "Aimsity",
       type: "Unity Asset",
-      title: "Coming soon...",
-      buttonUrl: "https://assetstore.unity.com/publishers/53629"
+      title: "Visualize Aimsun traffic.",
+      buttonUrl: "https://assetstore.unity.com/packages/slug/195610"
     },
     {
       imageSrc: VissityProductImage,

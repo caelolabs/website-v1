@@ -84,7 +84,7 @@ export default () => {
             <ColumnHeading>Products</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link target="_blank" href="https://assetstore.unity.com/publishers/53629">Aimsity</Link>
+                <Link target="_blank" href="https://assetstore.unity.com/packages/slug/195610">Aimsity</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link target="_blank" href="https://assetstore.unity.com/packages/slug/193837">Vissity</Link>
