@@ -85,7 +85,7 @@ export default ({
       imageSrc: VissityProductImage,
       company: "Vissity",
       type: "Unity Asset",
-      title: "Visualize your PTV Vissim traffic and PTV Viswalk pedestrians in Unity.",
+      title: "Visualize your PTV Vissim/Viswalk traffic in Unity.",
       buttonUrl: "https://assetstore.unity.com/packages/slug/193837"
     }
   ];
