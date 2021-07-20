@@ -68,7 +68,7 @@ export default ({
       We develop software for Unity.
     </>
   ),
-  description = "We have developed Aimsity and Vissity, software that allows you to visualize your simulated traffic in Unity.",
+  description = "We have developed Aimsity and Vissity, software that allows you to visualize Aimsun and PTV Vissim/Viswalk traffic in Unity, respectively. With these packages, you can create highly realistic animations, visualizations, and immersive experiences with your simulated traffic.",
   linkText = "Find us on the Unity Asset Store",
   cardLinkText = "View on Unity Asset Store",
   textOnLeft = true
@@ -77,15 +77,15 @@ export default ({
     {
       imageSrc: AimsityProductImage,
       company: "Aimsity",
-      type: "Unity Asset",
-      title: "Visualize Aimsun traffic in Unity",
+      type: "Aimsun traffic",
+      title: "",
       buttonUrl: "https://assetstore.unity.com/packages/slug/195610"
     },
     {
       imageSrc: VissityProductImage,
       company: "Vissity",
-      type: "Unity Asset",
-      title: "Visualize PTV Vissim traffic and PTV Viswalk pedestrians in Unity",
+      type: "PTV Vissim/Viswalk traffic",
+      title: "",
       buttonUrl: "https://assetstore.unity.com/packages/slug/193837"
     }
   ];
