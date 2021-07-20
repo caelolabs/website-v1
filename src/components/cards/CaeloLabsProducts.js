@@ -78,14 +78,14 @@ export default ({
       imageSrc: AimsityProductImage,
       company: "Aimsity",
       type: "Unity Asset",
-      title: "Visualize your Aimsun traffic in Unity.",
+      title: "Visualize Aimsun traffic in Unity",
       buttonUrl: "https://assetstore.unity.com/packages/slug/195610"
     },
     {
       imageSrc: VissityProductImage,
       company: "Vissity",
       type: "Unity Asset",
-      title: "Visualize your PTV Vissim and/or Viswalk traffic in Unity.",
+      title: "Visualize PTV Vissim traffic and PTV Viswalk pedestrians in Unity",
       buttonUrl: "https://assetstore.unity.com/packages/slug/193837"
     }
   ];
