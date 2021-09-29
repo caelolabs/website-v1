@@ -39,7 +39,7 @@ export default ({
   subheading = "Welcome",
   heading = (
     <>
-      We just opened <wbr /> our doors.
+      We are Caelo Labs.
     </>
   ),
   description = "We are creative technophiles who are obsessed with applying real-time 3D (RT3D) technology in the architecture, engineering, and construction (AEC) industry. We provide visualization services and develop software for Unity.",

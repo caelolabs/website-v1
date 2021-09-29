@@ -42,7 +42,7 @@ const CardImage = styled.div(props => [
 
 const CardText = tw.div`mt-4`;
 
-const CardHeader = tw.div`flex justify-between items-center`;
+// const CardHeader = tw.div`flex justify-between items-center`;
 const CardCompany = tw.div`text-primary-500 font-bold text-lg`;
 const CardType = tw.div`font-semibold text-sm text-gray-600`;
 
@@ -68,7 +68,7 @@ export default ({
       We develop software for Unity.
     </>
   ),
-  description = "We have developed Aimsity and Vissity, software that allows you to visualize Aimsun and PTV Vissim/Viswalk traffic in Unity, respectively. With these packages, you can create highly realistic animations, visualizations, and immersive experiences with your simulated traffic.",
+  description = "We have developed Aimsity and Vissity, software that allows you to visualize Aimsun Next and PTV Vissim/PTV Viswalk traffic in Unity, respectively. With these packages, you can create highly realistic animations, visualizations, and immersive AR/VR experiences with your simulated traffic.",
   linkText = "Find us on the Unity Asset Store",
   cardLinkText = "View on Unity Asset Store",
   textOnLeft = true
@@ -76,15 +76,15 @@ export default ({
   const cards = [
     {
       imageSrc: AimsityProductImage,
-      company: "Aimsity",
-      type: "Aimsun traffic",
+      company: "Aimsity lets you visualize Aimsun Next traffic in Unity.",
+      type: "Import simulated vehicle traffic from microsimulation vehicle trajectory tables.",
       title: "",
       buttonUrl: "https://assetstore.unity.com/packages/slug/195610"
     },
     {
       imageSrc: VissityProductImage,
-      company: "Vissity",
-      type: "PTV Vissim/Viswalk traffic",
+      company: "Vissity lets you visualize PTV Vissim traffic and PTV Viswalk pedestrians in Unity.",
+      type: "Import network objects, simulated vehicle and pedestrian traffic, and signal timings.",
       title: "",
       buttonUrl: "https://assetstore.unity.com/packages/slug/193837"
     }
@@ -108,11 +108,13 @@ export default ({
               <Card>
                 <CardImage imageSrc={card.imageSrc} />
                 <CardText>
-                  <CardHeader>
+                  <CardTitle>{card.title}</CardTitle>
+                  {/* <CardHeader>
                     <CardCompany>{card.company}</CardCompany>
                     <CardType>{card.type}</CardType>
-                  </CardHeader>
-                  <CardTitle>{card.title}</CardTitle>
+                  </CardHeader> */}
+                  <CardCompany>{card.company}</CardCompany>
+                  <CardType>{card.type}</CardType>
                   <CardMeta>
                     <CardMetaFeature>
                       {/* <TimeIcon /> */}
