@@ -108,7 +108,7 @@ import ComponentRenderer from "ComponentRenderer.js";
 // import MainLandingPage from "MainLandingPage.js";
 // import ThankYouPage from "ThankYouPage.js";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export default function App() {
     //   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -118,33 +118,15 @@ export default function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/components/:type/:subtype/:name">
-                    <ComponentRenderer />
-                </Route>
-                <Route path="/components/:type/:name">
-                    <ComponentRenderer />
-                </Route>
-                <Route path="/about">
-                    <AboutUsPage />
-                </Route>
-                {/* <Route path="/blog">
-                    <BlogIndexPage />
-                </Route> */}
-                {/* <Route path="/contact">
-                    <ContactUsPage />
-                </Route> */}
-                <Route path="/legal-notice">
-                    <LegalNoticePage />
-                </Route>
-                <Route path="/terms-of-service">
-                    <TermsOfServicePage />
-                </Route>
-                <Route path="/privacy-policy">
-                    <PrivacyPolicyPage />
-                </Route>
-                <Route path="/">
-                    <CaeloLabsLandingPage />
-                </Route>
+                <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
+                <Route path="/components/:type/:name" element={<ComponentRenderer />} />
+                <Route path="/about" element={<AboutUsPage />} />
+                {/* <Route path="/blog" element={<BlogIndexPage />} /> */}
+                {/* <Route path="/contact" element={<ContactUsPage />} /> */}
+                <Route path="/legal-notice" element={<LegalNoticePage />} />
+                <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+                <Route path="/" element={<CaeloLabsLandingPage />} />
             </Routes>
         </Router>
     );
