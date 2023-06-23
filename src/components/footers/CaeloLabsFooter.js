@@ -116,7 +116,7 @@ export default () => {
         </FiveColumns>
         <Divider />
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>Copyright &copy; 2022 Caelo Labs</CopyrightNotice>
+          <CopyrightNotice>Copyright &copy; 2023 Caelo Labs</CopyrightNotice>
           <CompanyInfo>A Creative Technology &amp; Development Studio</CompanyInfo>
         </CopyrightAndCompanyInfoRow>
       </Content>
