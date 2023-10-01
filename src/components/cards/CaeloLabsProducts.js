@@ -10,7 +10,6 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 // import { ReactComponent as TimeIcon } from "feather-icons/dist/icons/clock.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
 
-import AimsityProductImage from "images/products-aimsity.png";
 import VissityProductImage from "images/products-vissity.png";
 
 const Container = tw.div`relative`;
@@ -68,19 +67,12 @@ export default ({
       We develop software for Unity.
     </>
   ),
-  description = "We have developed Aimsity and Vissity, software that allows you to visualize Aimsun Next and PTV Vissim/Viswalk traffic in Unity, respectively. With these packages, you can create highly realistic animations, visualizations, and immersive AR/VR experiences with your simulated traffic.",
+  description = "We have developed Vissity, software that allows you to visualize PTV Vissim/Viswalk traffic in Unity. With this package, you can create highly realistic animations, visualizations, and immersive AR/VR experiences with your simulated traffic.",
   linkText = "Find us on the Unity Asset Store",
   cardLinkText = "View on Unity Asset Store",
   textOnLeft = true
 }) => {
   const cards = [
-    {
-      imageSrc: AimsityProductImage,
-      company: "",
-      type: "Import simulated vehicle traffic from microsimulation vehicle trajectory tables.",
-      title: "Aimsity lets you visualize Aimsun Next traffic in Unity.",
-      buttonUrl: "https://assetstore.unity.com/packages/slug/195610"
-    },
     {
       imageSrc: VissityProductImage,
       company: "",

@@ -7,8 +7,6 @@ import { SectionHeading } from "components/misc/Headings.js";
 
 import defaultCardImage from "../../images/shield-icon.svg";
 
-import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-blob-3.svg";
-
 import VideoIcon from "../../images/video.svg";
 import CubeIcon from "../../images/cube.svg";
 import HandPointUpIcon from "../../images/hand-point-up.svg";
@@ -47,10 +45,6 @@ const Card = styled.div`
   .description {
     ${tw`mt-3 font-semibold text-secondary-100 text-sm leading-loose`}
   }
-`;
-
-const DecoratorBlob = styled(SvgDecoratorBlob3)`
-  ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
 export default () => {
@@ -115,7 +109,6 @@ export default () => {
           </Column>
         ))}
       </ThreeColumnContainer>
-      <DecoratorBlob />
     </Container>
   );
 };

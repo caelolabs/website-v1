@@ -80,7 +80,7 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>Check out Aimsity and Vissity on the Unity Asset Store!</Notification>
+            <Notification>Check out Vissity on the Unity Asset Store!</Notification>
             <Heading>
               <span>Create something</span>
               <br />
